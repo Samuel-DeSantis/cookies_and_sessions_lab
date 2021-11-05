@@ -1,0 +1,9 @@
+<h1>Your cart: </h1>
+
+<%= render 'form' %>
+
+<ul>
+    <% cart.each do |item| %>
+        <li><%= item %></li>
+    <% end %>
+</ul>
